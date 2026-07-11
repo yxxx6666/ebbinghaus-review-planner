@@ -22,7 +22,7 @@
 
 ### 示例图（聊天结果 + PDF 预览）
 
-![示例图](docs/shili001.jpg)
+![示例图](docs/docs/example-output-chat-and.jpg)
 
 ## 会产出什么
 
