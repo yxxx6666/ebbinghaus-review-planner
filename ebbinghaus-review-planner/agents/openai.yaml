@@ -1,8 +1,8 @@
 interface:
-  display_name: "艾宾浩斯复习规划大师"
-  short_description: "把学习资料变成复习系统和可打印A4手册"
+  display_name: "艾宾浩斯复习计划表"
+  short_description: "先教会再复习，生成一致的A4 Word与PDF手册"
   icon: "🧠"
   primary_color: "#4F46E5"
-  default_prompt: "Use $ebbinghaus-review-planner only when the user explicitly wants to learn, memorize, review, prepare for an exam, train on, or internalize material. Build a faithful knowledge map, active-recall questions, concrete review dates, and adaptive tasks. Then create an A4 portrait DOCX and printable PDF, separate questions from answers, render and inspect every page, fix all layout defects, and deliver only after content and visual audits pass. Add Notion, Excel, Anki, calendar, or plain-text exports only when requested."
+  default_prompt: "Use $ebbinghaus-review-planner only when the user explicitly wants to learn, memorize, review, prepare for an exam, train on, or internalize material. When the user says they know nothing or are a complete beginner, teach before testing with plain-language explanations, examples, non-examples, guided practice, independent practice, and transfer. Build a complete scope map with no unexplained gaps, map A/B knowledge points to questions, merge all same-day work into one budget-safe daily task, calculate adaptive next dates, and create one audited A4 DOCX master, convert the final PDF from that same DOCX, prevent blank pages and broken words, keep body text printable, and verify the DOCX/PDF pair."
 policy:
   allow_implicit_invocation: true
